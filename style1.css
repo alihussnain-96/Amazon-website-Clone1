@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    font-family: cursive;
+    border: border-box;
+}
+.navbar{
+    height: 65px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.nav-logo{
+    height: 50px;
+    width: 109px;
+}
+.logo{
+    background-image: url(Amazon-Logo-32.png);
+    background-size: cover;
+      height: 50px;
+      width: 100%;
+}
+.border{
+    border: 1px solid transparent;
+}
+.border:hover{
+    border: 1px solid grey;
+    font-weight: 800;
+}
+
+
+/* address */
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+.add1{
+    font-size: 0.85rem;
+    color: #cccccc;
+    margin-left: 15px;
+}
+.add2{
+    font-size: 1.2rem;
+    color: white;
+    margin-left: 5px;
+}
+
+/* nav-saerch */
+
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 4px;
+    height: 35px;
+    width: 600px;
+    background-color: rgb(234, 176, 51);
+
+    
+}
+.nav-search:hover{
+    border: 2px solid orange;
+}
+.input-search{
+    width: 575px;
+    font-size: 1.1rem;
+    border: none;
+}
+
+.select-search{
+background-color: #f3f3f3;
+width: 40px;
+border-top-left-radius: 4px;
+border-bottom-left-radius: 4px;
+border: 2px solid white;
+text-align: center;
+border: none;
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #feb68f;
+    font-size: 1.2rem;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+/* Box 5 */
+
+span{
+    font-size: 0.9rem;
+    margin-left: 7px;
+}
+.cart{
+    font-size: 1.2rem;
+    height: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+/* PANEL */
+.panel{
+    display: flex;
+   align-items: center;
+    background-color: #222f3d;
+    height: 40px;
+    color: white;
+}
+.panel-option{
+width: 70%;
+font-size: 0.85rem;
+font-weight: 350;
+margin-right: 0.5rem;
+}
+.panel-all{
+    margin-right: 0.2rem;
+}
+a{
+    text-decoration: none;
+    width: 80%;
+    color:white;
+    margin-right: 0.8rem;
+
+}
+.panel-deals{
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: white;
+}
+
+/* Hero-section */
+
+.hero-section{
+    background-image: url(fashion\ for\ pj.jpg);
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+.text{
+    background-color: white;
+    color: #0f1111;
+    height: 2.1rem;
+    width: 80%;
+    border: 2px solid whitesmoke;
+    border-radius: 3px;
+    font-size: 12px;
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text1{
+    color: #0f1111;
+}
+
+ /* shop section */
+
+ .shop-section{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+margin-top: 2rem;
+gap: 2rem
+;
+margin-bottom: 2rem;
+ }
+
+ .box{
+    height: 250px;
+    width: 20%;
+    border: 4px solid black;
+    padding: 10px 16px 10px 16px;
+
+ }
+ .box p{
+    color: #007186;
+ }
+ .image{
+    height: 75%;
+    background-image: url(gaming\ store\ for\ pJ.jpg);
+    background-size: contain;
+    border: 2px solid black;
+ } 
+ .image2{
+    height: 75%;
+    background-image: url(kitchen\ for\ pJ.jpg);
+    background-size: contain; 
+     border: 2px solid black;
+  }
+ .image3{
+  height: 75%;
+    background-image: url(toys\ for\ pJ.jpg);
+    background-size: contain; 
+     border: 2px solid black;
+ }
+ .image4{
+    height: 75%;
+    background-image: url(fashion\ for\ pj.jpg);
+    background-size: contain;
+     border: 2px solid black;
+ } 
+
+ /* footer */
+
+ .panel-1{
+    height: 2.3rem;
+    align-content: center;
+    text-align: center;
+    background-color: #37475a;
+    color: white;
+    font-size: 0.85rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+.panel-2{
+    background-color: #222f3d;
+    color: white;
+    height: 20rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+}
+
+ul a{
+    display: block;
+    font-size: 0.77rem;
+    margin-top: 0.17rem;
+}
+ul p{
+    font-size: 1.2rem;
+    font-weight: 400;
+    
+}
